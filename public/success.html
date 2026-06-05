@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registration Successful · TechNova 2026</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body class="success-body">
+  <div class="success-wrap">
+    <div class="success-card">
+      <div class="success-icon">
+        <i class="fa-solid fa-circle-check"></i>
+      </div>
+      <h1>Registration Confirmed</h1>
+      <p class="tagline">Welcome to TechNova 2026</p>
+      <p class="muted">
+        Thank you for registering. A confirmation has been saved locally.
+        We'll see you on <strong>August 15, 2026</strong> at the Hyderabad
+        International Convention Center.
+      </p>
+      <div class="success-info" id="successInfo"></div>
+      <a href="/" class="btn btn-primary">
+        <i class="fa-solid fa-house"></i> Back to Home
+      </a>
+    </div>
+  </div>
+  <script>
+    try {
+      const data = JSON.parse(localStorage.getItem('technova_registration') || 'null');
+      if (data) {
+        document.getElementById('successInfo').innerHTML = `
+          <div class="info-row"><span>Name</span><strong>${data.fullName}</strong></div>
+          <div class="info-row"><span>Email</span><strong>${data.email}</strong></div>
+          <div class="info-row"><span>Phone</span><strong>${data.phone}</strong></div>
+          <div class="info-row"><span>College</span><strong>${data.college}</strong></div>
+        `;
+      }
+    } catch (e) {}
+  </script>
+</body>
+</html>

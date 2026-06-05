@@ -29,32 +29,31 @@ Screenshots:
 
 Screenshot-01:
 Home Page
-![Home Page](Screenshot_2026-06-05_184009.png)
+![Home Pge](Screenshot_homepage.png)
 
 Screenshot-02:
 Event Highlights
-![Event Highlights](Screenshot_2026-06-05_184029.png)
+![Event Highlights](<Screenshot 2026-06-05 184029.png>)
 
 Screenshot-03:
 Keynote Speakers
-![Keynote Speakers](Screenshot_2026-06-05_184054.png)
-
+![Key Speakers](<Screenshot 2026-06-05 184054.png>)
 Screenshot-04:
 Stats Section
-![Stats Section](Screenshot_2026-06-05_184111.png)
+![Stats Section](<Screenshot 2026-06-05 184111.png>)
 
 Screenshot-05:
 Registration Form
-![Registration Form](Screenshot_2026-06-05_184133.png)
+![Registration Form](<Screenshot 2026-06-05 184133.png>)
 
 Screenshot-06:
 Email Validation Error
-![Email Validation Error](Screenshot_2026-06-05_184305.png)
+![Email Validation Error](<Screenshot 2026-06-05 184305.png>)
 
 Screenshot-07:
 Phone Validation Error
-![Phone Validation Error](Screenshot_2026-06-05_184323.png)
+![Phone Validation Error](<Screenshot 2026-06-05 184323.png>)
 
 Screenshot-08:
 Success Page
-![Success Page](Screenshot_2026-06-05_184217.png)
+![Success Page](<Screenshot 2026-06-05 184217.png>)
